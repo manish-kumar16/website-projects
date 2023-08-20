@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background: url('/img/bg.jpg');
+    background-image: url('/img/bg.jpg');
     background-size: cover;
     color: black;
     font-family: 'Baloo Bhai';
@@ -35,7 +35,7 @@ body {
     border: 2px solid bisque;
     display: block;
     width: 50%;
-    margin: 50px auto;
+    margin: 32px 26%;
 
 }
 
