@@ -1,14 +1,14 @@
-body{
+body {
     /* background-color: red; */
 }
 
 /* nav bar */
-#navbar{
+#navbar {
     flex-direction: column;
     top: -10px;
 }
 
-#navbar ul li a{
+#navbar ul li a {
     font-size: 1rem;
     padding: 0px 7px;
 }
@@ -20,42 +20,43 @@ body{
 
 }
 
-#home{
+#home {
     padding: 12px 52px;
 }
 
-#home p{
+#home p {
     font-size: 20px;
 }
 
-.btn{
+.btn {
     font-size: 13px;
     padding: 10px 20px;
     margin: 20px 15px;
 }
 
 /*services */
-#service{
-    flex-wrap: wrap;
-}
-/* clients */
-#clients{
+#service {
     flex-wrap: wrap;
 }
 
-#clients img{
+/* clients */
+#clients {
+    flex-wrap: wrap;
+}
+
+#clients img {
     width: 80px;
 
 }
 
 /* contact us */
 
-#contact-box form{
+#contact-box form {
     width: 80%;
 }
 
 
 /* utility */
-.h-primary-center{
+.h-primary-center {
     font-size: 30px;
 }

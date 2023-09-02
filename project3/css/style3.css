@@ -1,0 +1,450 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Nav */
+
+#logo img {
+    width: 50px;
+}
+
+#navbar {
+    display: flex;
+    position: relative;
+    padding: 18px 70px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+#navbar ul li {
+
+    display: flex;
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 4px 14px;
+    color: black;
+    font-size: 1.1rem;
+    font-family: 'Fjalla One', sans-serif;
+}
+#navbar ul li a:hover {
+    background-color: rgb(33, 192, 192);
+    color: aliceblue;
+    border-radius:12px ;
+}
+
+
+/* Home section */
+
+#home::before {
+    content: "";
+    background: url('/img/bg/bg4.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 85%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#home {
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#home .home-box {
+    margin-left: 48%;
+
+}
+
+#home h1 {
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: left;
+    padding-bottom: 10px;
+    font-family: 'Archivo', sans-serif;
+}
+
+#home p {
+    font-family: 'Fjalla One', sans-serif;
+    margin: 12px 6px;
+    font-size: 0.9rem;
+}
+
+#home .btn {
+    color: white;
+    background-color: rgb(33, 192, 192);
+    padding: 14px 32px;
+    margin: 10px;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* about us section */
+#about-us{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-us h1{
+    font-size: 2.2rem;
+    font-family:'Archivo', sans-serif ;
+    margin: 26px;
+
+}
+#about-us p{
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: sans-serif ;
+    padding: 6px;
+
+}
+
+#about-us img{
+    width: 180px;
+    margin: 34px;
+}
+
+/* Professional skill section */
+#prof-skill{
+    height: 480px;
+    position: relative;
+    
+}
+#prof-skill p{
+    padding: 26px 8px;
+    margin: 6px 77px;
+    font-weight: bold;
+}
+#prof-skill h1{
+    font-size: 2.1rem;
+    font-family:'Archivo', sans-serif;
+    padding: 26px 8px;
+    margin: 6px 77px;
+}
+
+#prof-skill .box2{
+    padding: 62px 16px;
+}
+
+#prof-skill::before {
+    content: "";
+    background: url('/img/bg/bg1.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* details section */
+#details{
+    width: 100%;
+    height: 284px;
+    position: relative;
+    color: white;
+    font-size: 1.3rem;
+    font-family:'Archivo', sans-serif ;
+}
+.detail-box ul{
+    display: flex;
+    padding: 104px 140px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.detail-box ul li{
+    margin: 16px 62px;
+    font-size: 1rem;
+}
+.detail-box img{
+    width: 40px;
+}
+
+#details::before {
+    content: "";
+    background-color: rgb(33, 192, 192);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* work section */
+#work{
+    display: grid;
+    height: auto;
+    
+}
+
+#work .work-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(379px, 374px));
+    justify-content: center;
+    align-items: center;
+
+}
+
+#work img{
+    width: 379px;
+}
+.work-box img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#work .btn{
+    padding: 24px;
+    grid-area: auto;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    background-color: whitesmoke;
+    border: 0px;
+
+}
+
+/* Work process section */
+
+#work-process{
+
+}
+#work-process .process-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.process-box h1{
+  margin: 18px;
+  font-size: 1.8rem;
+  font-family: 'Archivo', sans-serif ;
+}
+
+.process-box p{
+  color: rgb(143, 137, 137);
+  font-size: 1rem;
+  font-family: 'Archivo', sans-serif ;
+}
+.process-box video{
+    width: 90%;
+    margin-top:60px ;
+}
+
+/* course section */
+
+#course .course-box{
+   height: 600px;
+   width:80%;
+   margin: auto;
+}
+
+.course-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    align-items: center;
+    text-align: center;
+}
+
+.course-box .box{
+    margin: 35px 25px;
+}
+
+#course::before {
+    content: "";
+    background-color: rgb(244, 241, 241);
+    position: absolute;
+    height: 85%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.course-box img{
+    width: 50px;
+    margin-bottom: 10px;
+    filter: invert(100%);
+}
+.course-box h2{
+   font-size: 1rem;
+   margin: 6px 10px;
+   font-family: 'Archivo', sans-serif ;
+}
+.course-box p{
+   font-size: 0.9rem;
+   margin: 8px 4px;
+   color: gray;
+   
+}
+
+/* quote section */
+
+#quote{
+    height: 580px;
+}
+
+.quote-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 200px;
+}
+
+#quote::before {
+    content: "";
+    background-color: rgb(33, 192, 192);
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.quote-box q{
+    padding: 14px 120px;
+    font-family:serif ;
+    font-weight:normal;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.quote-box p{
+    padding: 20px;
+    font-size: 0.8rem;
+}
+
+/* client section */
+
+#client-section{
+    height: 200px;
+}
+
+.clients{
+    display: flex;
+    justify-content: space-around;
+}
+
+.clients img{
+    width: 100px;
+}
+
+/* For Project */
+
+#for-project{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin: 17px 10px;
+    padding: 20px;
+    position: relative;
+}
+
+#for-project form{
+    margin: 28px 40px;
+}
+
+#for-project h1{
+    font-size: 2rem;
+    font-family: 'Archivo', sans-serif ;
+    padding-bottom: 16px;
+
+}
+#for-project p{
+    font-size: 1rem;
+    font-family: 'Archivo', sans-serif ;
+    padding: 8px;
+
+}
+
+#project-box input,
+#project-box textarea {
+    width: 400px;
+    margin: 10px 10px;
+    padding: 20px;
+    border: 0px;
+}
+#project-box textarea,
+#project-box input[type=title]{
+    width: 865px;
+    padding: 20px;
+}
+
+#for-project::before {
+    content: "";
+    background-color: rgb(244, 241, 241);
+    position: absolute;
+    height: 105%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#project-box .btn{
+    color: white;
+    background-color: rgb(33, 192, 192);
+    padding: 15px 30px;
+    font-size: 1rem;
+    border: 2px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   display: block;
+   margin: auto;
+}
+
+/* footer section */
+footer {
+    background-color: black;
+    color: white;
+    padding: 100px 150px;
+    height: auto;
+}
+
+footer #f-box{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#f-box .left h3{
+    padding-bottom: 20px;
+}
+#f-box .center p{
+    padding-bottom: 8px;
+}
+
+#f-box .a-nav ul, .b-nav ul, .c-nav ul{
+    list-style: none;
+}
+#f-box .a-nav ul li, .b-nav ul li, .c-nav ul li{
+    padding: 2px;
+}
+
