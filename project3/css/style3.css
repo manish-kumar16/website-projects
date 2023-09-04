@@ -39,10 +39,11 @@
     font-size: 1.1rem;
     font-family: 'Fjalla One', sans-serif;
 }
+
 #navbar ul li a:hover {
     background-color: rgb(33, 192, 192);
     color: aliceblue;
-    border-radius:12px ;
+    border-radius: 12px;
 }
 
 
@@ -97,11 +98,11 @@
     border: 2px solid white;
     border-radius: 6px;
     cursor: pointer;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* about us section */
-#about-us{
+#about-us {
     height: 450px;
     display: flex;
     flex-direction: column;
@@ -109,44 +110,47 @@
     justify-content: center;
 }
 
-#about-us h1{
+#about-us h1 {
     font-size: 2.2rem;
-    font-family:'Archivo', sans-serif ;
+    font-family: 'Archivo', sans-serif;
     margin: 26px;
 
 }
-#about-us p{
+
+#about-us p {
     text-align: center;
     font-size: 1.1rem;
-    font-family: sans-serif ;
+    font-family: sans-serif;
     padding: 6px;
 
 }
 
-#about-us img{
+#about-us img {
     width: 180px;
     margin: 34px;
 }
 
 /* Professional skill section */
-#prof-skill{
+#prof-skill {
     height: 480px;
     position: relative;
-    
+
 }
-#prof-skill p{
+
+#prof-skill p {
     padding: 26px 8px;
     margin: 6px 77px;
     font-weight: bold;
 }
-#prof-skill h1{
+
+#prof-skill h1 {
     font-size: 2.1rem;
-    font-family:'Archivo', sans-serif;
+    font-family: 'Archivo', sans-serif;
     padding: 26px 8px;
     margin: 6px 77px;
 }
 
-#prof-skill .box2{
+#prof-skill .box2 {
     padding: 62px 16px;
 }
 
@@ -162,26 +166,29 @@
 }
 
 /* details section */
-#details{
+#details {
     width: 100%;
     height: 284px;
     position: relative;
     color: white;
     font-size: 1.3rem;
-    font-family:'Archivo', sans-serif ;
+    font-family: 'Archivo', sans-serif;
 }
-.detail-box ul{
+
+.detail-box ul {
     display: flex;
     padding: 104px 140px;
     justify-content: space-between;
     align-items: center;
     list-style: none;
 }
-.detail-box ul li{
+
+.detail-box ul li {
     margin: 16px 62px;
     font-size: 1rem;
 }
-.detail-box img{
+
+.detail-box img {
     width: 40px;
 }
 
@@ -196,13 +203,13 @@
 }
 
 /* work section */
-#work{
+#work {
     display: grid;
     height: auto;
-    
+
 }
 
-#work .work-box{
+#work .work-box {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(379px, 374px));
     justify-content: center;
@@ -210,19 +217,20 @@
 
 }
 
-#work img{
+#work img {
     width: 379px;
 }
-.work-box img:hover{
+
+.work-box img:hover {
     opacity: 0.7;
     cursor: pointer;
 }
 
-#work .btn{
+#work .btn {
     padding: 24px;
     grid-area: auto;
     cursor: pointer;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: gray;
     background-color: whitesmoke;
     border: 0px;
@@ -231,48 +239,53 @@
 
 /* Work process section */
 
-#work-process{
+#work-process {}
 
-}
-#work-process .process-box{
+#work-process .process-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 100px;
 }
-.process-box h1{
-  margin: 18px;
-  font-size: 1.8rem;
-  font-family: 'Archivo', sans-serif ;
+
+.process-box h1 {
+    margin: 18px;
+    font-size: 1.8rem;
+    font-family: 'Archivo', sans-serif;
 }
 
-.process-box p{
-  color: rgb(143, 137, 137);
-  font-size: 1rem;
-  font-family: 'Archivo', sans-serif ;
+.process-box p {
+    color: rgb(143, 137, 137);
+    font-size: 1rem;
+    font-family: 'Archivo', sans-serif;
 }
-.process-box video{
+
+.process-box video {
     width: 90%;
-    margin-top:60px ;
+    margin-top: 60px;
 }
 
 /* course section */
 
-#course .course-box{
-   height: 600px;
-   width:80%;
-   margin: auto;
+#course{
+    padding-bottom: 80px;
 }
 
-.course-box{
+#course .course-box {
+    height: auto;
+    width: 80%;
+    margin: auto;
+}
+
+.course-box {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
     text-align: center;
 }
 
-.course-box .box{
+.course-box .box {
     margin: 35px 25px;
 }
 
@@ -280,42 +293,44 @@
     content: "";
     background-color: rgb(244, 241, 241);
     position: absolute;
-    height: 85%;
+    height: auto;
     width: 100%;
     z-index: -1;
     opacity: 0.7;
 }
 
-.course-box img{
+.course-box img {
     width: 50px;
     margin-bottom: 10px;
     filter: invert(100%);
 }
-.course-box h2{
-   font-size: 1rem;
-   margin: 6px 10px;
-   font-family: 'Archivo', sans-serif ;
+
+.course-box h2 {
+    font-size: 1rem;
+    margin: 6px 10px;
+    font-family: 'Archivo', sans-serif;
 }
-.course-box p{
-   font-size: 0.9rem;
-   margin: 8px 4px;
-   color: gray;
-   
+
+.course-box p {
+    font-size: 0.9rem;
+    margin: 8px 4px;
+    color: gray;
+
 }
 
 /* quote section */
 
-#quote{
+#quote {
     height: 580px;
 }
 
-.quote-box{
+.quote-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
-    padding: 200px;
+    padding: 125px;
 }
 
 #quote::before {
@@ -328,59 +343,61 @@
     opacity: 0.7;
 }
 
-.quote-box q{
-    padding: 14px 120px;
-    font-family:serif ;
-    font-weight:normal;
+.quote-box q {
+    padding: 60px 120px;
+    font-family: serif;
+    font-weight: normal;
     font-size: 1.4rem;
     text-align: center;
 }
-.quote-box p{
+
+.quote-box p {
     padding: 20px;
     font-size: 0.8rem;
 }
 
 /* client section */
 
-#client-section{
+#client-section {
     height: 200px;
 }
 
-.clients{
+.clients {
     display: flex;
     justify-content: space-around;
 }
 
-.clients img{
+.clients img {
     width: 100px;
 }
 
 /* For Project */
 
-#for-project{
+#for-project {
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     margin: 17px 10px;
     padding: 20px;
     position: relative;
 }
 
-#for-project form{
+#for-project form {
     margin: 28px 40px;
 }
 
-#for-project h1{
+#for-project h1 {
     font-size: 2rem;
-    font-family: 'Archivo', sans-serif ;
+    font-family: 'Archivo', sans-serif;
     padding-bottom: 16px;
 
 }
-#for-project p{
+
+#for-project p {
     font-size: 1rem;
-    font-family: 'Archivo', sans-serif ;
+    font-family: 'Archivo', sans-serif;
     padding: 8px;
 
 }
@@ -392,8 +409,9 @@
     padding: 20px;
     border: 0px;
 }
+
 #project-box textarea,
-#project-box input[type=title]{
+#project-box input[type=title] {
     width: 865px;
     padding: 20px;
 }
@@ -408,7 +426,7 @@
     opacity: 0.7;
 }
 
-#project-box .btn{
+#project-box .btn {
     color: white;
     background-color: rgb(33, 192, 192);
     padding: 15px 30px;
@@ -416,9 +434,9 @@
     border: 2px solid white;
     border-radius: 2px;
     cursor: pointer;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   display: block;
-   margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin: auto;
 }
 
 /* footer section */
@@ -427,24 +445,31 @@ footer {
     color: white;
     padding: 100px 150px;
     height: auto;
+    width: auto;
 }
 
-footer #f-box{
+footer #f-box {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
-#f-box .left h3{
+
+#f-box .left h3 {
     padding-bottom: 20px;
 }
-#f-box .center p{
+
+#f-box .center p {
     padding-bottom: 8px;
 }
 
-#f-box .a-nav ul, .b-nav ul, .c-nav ul{
+#f-box .a-nav ul,
+.b-nav ul,
+.c-nav ul {
     list-style: none;
 }
-#f-box .a-nav ul li, .b-nav ul li, .c-nav ul li{
+
+#f-box .a-nav ul li,
+.b-nav ul li,
+.c-nav ul li {
     padding: 2px;
 }
-
