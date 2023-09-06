@@ -1,0 +1,288 @@
+/* nav */
+#navbar {
+    padding: 18px 70px;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#navbar ul {
+    padding: 30px 10px;
+
+}
+
+
+#navbar ul li a {
+    padding: 4px 4px;
+    color: black;
+    font-size: 0.8rem;
+}
+
+
+/* home */
+#home .home-box {
+    text-align: center;
+}
+
+#home {
+    height: 270px;
+    width: auto;
+}
+
+#home::before {
+    top: -220px;
+    opacity: 0.6;
+    height: 180%;
+}
+
+#home h1 {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#home p {
+    font-size: 0.6rem;
+}
+
+#home .home-box {
+    height: 494px;
+    margin: auto;
+}
+
+
+#home .btn {
+    padding: 8px 12px;
+    margin: 5px;
+    font-size: 0.8rem;
+}
+
+
+
+/* about us */
+
+#about-us {
+    height: 340px;
+}
+
+#about-us h1 {
+    font-size: 1.6rem;
+    margin: 16px;
+}
+
+#about-us p {
+    font-size: 0.9rem;
+    padding: 4px
+}
+
+#about-us img {
+    width: 120px;
+    margin: 26px
+}
+
+/* Professional skill section */
+
+#prof-skill h1 {
+    text-align: left;
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+#prof-skill p {
+    font-size: 0.8rem;
+    padding: 26px 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+#prof-skill .box2 {
+    padding: 44px 20px;
+}
+
+#prof-skill::before {
+    height: 100%;
+    opacity: 0.6;
+}
+
+
+
+/* details */
+
+#details {
+    width: 100%;
+    height: 380px;
+}
+
+.detail-box ul {
+    flex-direction: column;
+    padding: 70px 70px;
+
+}
+
+.detail-box img {
+    height: 30px;
+    width: 30px;
+    margin: 15px 15px;
+}
+
+.detail-box .box {
+    width: 100%;
+    margin: auto
+}
+
+.detail-box ul li {
+    margin: 8px 58px;
+    font-size: 0.8rem;
+    margin: 11px 13px;
+    font-size: 0.8rem;
+}
+
+/* work section */
+
+#work .work-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(173px, 162px));
+}
+
+#work img {
+    width: 180px;
+}
+
+#work .btn {
+    font-size: 0.7rem;
+    padding: 13px;
+}
+
+/* work process section */
+
+.process-box h1 {
+    margin: 18px;
+    font-size: 1.2rem;
+}
+
+.process-box p {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.process-box video {
+    width: 75%;
+    margin-top: 35px
+}
+
+#work-process .process-box {
+    padding: 44px
+}
+
+
+/* course sectiion */
+
+.course-box {
+    grid-template-columns: 1fr 1fr;
+}
+
+.course-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.course-box .box {
+    margin: 8px 15px;
+}
+
+.course-box p {
+    font-size: 0.8rem;
+    margin: 2px 5px;
+}
+
+.course-box img {
+    width: 25px
+}
+
+.course-box h2 {
+    font-size: 0.7rem;
+    margin: 4px 5px;
+}
+
+/* quote section */
+
+#quote {
+    height: auto;
+}
+
+#quote::before {
+    height: 100%;
+}
+
+.quote-box q {
+    padding: 50px 33px;
+    font-size: 1rem;
+}
+
+.quote-box {
+    padding: 50px
+}
+
+.quote-box {
+    height: auto;
+    padding: 50px;
+}
+
+
+/* client section */
+
+#client-section {
+    margin: 100px 10px;
+    height: 140px;
+}
+
+.clients {
+    flex-wrap: wrap;
+    margin: 55px 4px;
+    flex-wrap: wrap
+}
+
+.clients img {
+    width: 70px;
+}
+
+
+
+/* for project */
+
+#for-project h1 {
+    font-size: 1.2rem;
+}
+
+#for-project p {
+    font-size: 0.8rem;
+}
+
+#project-box input,
+#project-box textarea {
+    width: 100px;
+    margin: 10px 10px;
+    padding: 20px;
+    border: 0px;
+}
+
+#project-box textarea,
+#project-box input[type=title] {
+    width: 265px;
+    padding: 20px;
+}
+
+/* footer section */
+
+#f-box {
+    width: 80px;
+    padding: 10px;
+}
+
+footer #f-box {
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+footer {
+    padding: 94px 19px;
+}
